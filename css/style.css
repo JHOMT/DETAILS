@@ -1,0 +1,233 @@
+body {
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    width: 120px;
+    margin-left: 20px;
+}
+
+.search-input {
+    border-radius: 25px;
+    padding-left: 15px;
+    font-size: 1rem;
+    border: 1px solid #D49C5E;
+    box-shadow: 0 0 5px rgba(212, 156, 94, 0.5);
+    transition: border 0.3s ease;
+}
+
+.search-input:focus {
+    outline: none;
+    border-color: #B38A57;
+    box-shadow: 0 0 10px rgba(179, 138, 87, 0.6);
+}
+
+.search-icon {
+    background-color: #D49C5E;
+    border-radius: 50%;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.search-icon i {
+    font-size: 1.4rem;
+}
+
+.category-select {
+    border-radius: 25px;
+    padding: 12px;
+    border: 1px solid #D49C5E;
+    background-color: #fff;
+    font-size: 1rem;
+    box-shadow: 0 0 5px rgba(212, 156, 94, 0.5);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.category-select:focus {
+    outline: none;
+    background-color: #f5e0b7 !important;
+    border: 1px solid #D49C5E !important;
+    transform: scale(1.05);
+}
+
+.category-select:hover {
+    background-color: #f5e0b7;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navbar .d-flex {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .input-group {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .category-select {
+        width: 100%;
+    }
+
+    .search-input {
+        font-size: 1.1rem;
+    }
+
+    .search-icon {
+        font-size: 1.3rem;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-brand img {
+        width: 90px;
+    }
+
+    .search-input {
+        font-size: 1rem;
+    }
+
+    .category-select {
+        font-size: 0.9rem;
+    }
+}
+
+.product-container {
+    margin-top: 150px;
+}
+
+.category-item {
+    border: 2px solid #c5a68d;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.category-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.category-img {
+    max-width: 100%;
+    max-height: 254px;
+    width: auto;
+    height: auto;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.category-item h4 {
+    color: #c5a68d;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    max-height: 3em;
+    line-height: 1.5em;
+}
+
+.category-item i {
+    font-size: 40px;
+    color: #c5a68d;
+    margin-bottom: 10px;
+}
+
+.category-item:hover i {
+    color: #444;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #c5a68d;
+    color: white;
+}
+
+.modal-content {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.btn-cotiza {
+    background-color: #c5a68d;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-cotiza:hover {
+    background-color: #d4b29b;
+}
+
+@media (max-width: 1200px) {
+    .product-container {
+        margin-left: 0;
+    }
+
+    .category-item {
+        margin: 10px;
+        width: 48%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar .form-inline {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .category-item {
+        margin: 5px;
+        width: 100%;
+    }
+
+    .category-img {
+        max-width: 100%;
+        max-height: 200px;
+    }
+
+    .category-item h4 {
+        font-size: 1rem;
+        max-height: none;
+    }
+}
+
+@media (max-width: 576px) {
+    .category-item {
+        margin: 5px;
+        width: 100%;
+    }
+
+    .category-img {
+        max-height: 180px;
+    }
+
+    .category-item h4 {
+        font-size: 0.9rem;
+    }
+}
