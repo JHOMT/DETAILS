@@ -279,9 +279,8 @@ function showDetails(name, description, price, image, features) {
 
     featuresList.innerHTML = featuresHTML;
 
-    const imagenURL = `${window.location.origin}/img/${image}`;
     const numeroWhatsapp = "51939094592";
-    const mensajeWhatsapp = `Hola JHOLUANI, estoy interesado/a en cotizar el producto: *${name}* con precio: *S/. ${price}*.\n\nPuedes ver la imagen aquí: ${imagenURL}\n\nPor favor, ¿podrías brindarme más información?`;
+    const mensajeWhatsapp = `Hola JHOLUANI, estoy interesado/a en cotizar el producto: *${name}* con precio: *S/. ${price}*.\n\nPor favor, ¿podrías brindarme más información sobre este producto?`;
     const enlaceWhatsapp = `https://wa.me/${numeroWhatsapp}?text=${encodeURIComponent(mensajeWhatsapp)}`;
 
     const cotizacionButton = document.getElementById('btnModalCotizar');
