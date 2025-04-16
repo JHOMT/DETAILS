@@ -278,7 +278,20 @@ function showDetails(name, description, price, image, features) {
     });
 
     featuresList.innerHTML = featuresHTML;
+
+    const imagenURL = `${window.location.origin}/img/${image}`;
+    const numeroWhatsapp = "51939094592";
+    const mensajeWhatsapp = `Hola JHOLUANI, estoy interesado/a en cotizar el producto: *${name}* con precio: *S/. ${price}*.\n\nPuedes ver la imagen aquí: ${imagenURL}\n\nPor favor, ¿podrías brindarme más información?`;
+    const enlaceWhatsapp = `https://wa.me/${numeroWhatsapp}?text=${encodeURIComponent(mensajeWhatsapp)}`;
+
+    const cotizacionButton = document.getElementById('btnModalCotizar');
+    const btnCotizar = `
+        <a href="${enlaceWhatsapp}" target="_blank" rel="noopener noreferrer" class="btn-cotiza-ancle">
+            <button class="btn-cotiza"><i class='bx bxl-whatsapp'></i>Cotiza Ahora</button>
+        </a>
+    `;
+    cotizacionButton.innerHTML = btnCotizar;
 }
 
-    displayProducts(products);
+displayProducts(products);
 
