@@ -54,7 +54,7 @@ const products = [
         features: ['25 rosas rojas', 'Mariposas doradas', 'Corona dorada', 'Caja elegante con mensaje']
     },
     {
-        id: 10,
+        id: 7,
         name: 'Arreglo de Rosas Rosas en Caja Corazón Rosa',
         description: 'Un arreglo encantador de 12 rosas rosas organizadas perfectamente en una caja con forma de corazón. Un regalo perfecto para expresar tu cariño.',
         price: 85,
@@ -63,7 +63,7 @@ const products = [
         features: ['12 rosas rosas', 'Caja en forma de corazón rosa', 'Ideal para San Valentín o aniversarios']
     },
     {
-        id: 11,
+        id: 8,
         name: 'Arreglo de Rosas Rosas con Bombones',
         description: 'Arreglo de rosas rosas acompañadas de deliciosos bombones Lindt y un corazón decorativo. Un detalle perfecto para sorprender a tu ser querido.',
         price: 70,
@@ -72,7 +72,7 @@ const products = [
         features: ['Rosas rosas', 'Bombones Lindt', 'Corazón decorativo', 'Caja blanca con lazo rosa']
     },
     {
-        id: 12,
+        id: 9,
         name: 'Taza con Peluche y Globo para Mujer',
         description: 'Taza con un mensaje especial, peluche tierno, y un globo con mensaje "Feliz Día de la Mujer". Un regalo encantador para la persona más especial de tu vida.',
         price: 45,
@@ -81,7 +81,7 @@ const products = [
         features: ['Taza con mensaje', 'Peluche de animal', 'Globo decorativo', 'Lazo decorativo']
     },
     {
-        id: 13,
+        id: 10,
         name: 'Rosas Amarillas y Ferrero Rocher',
         description: 'Un arreglo de rosas amarillas con Ferrero Rocher, ideal para expresar cariño y agradecimiento. Perfecto para regalar en cualquier ocasión especial.',
         price: 45,
@@ -90,7 +90,7 @@ const products = [
         features: ['Rosas amarillas', 'Ferrero Rocher', 'Caja de regalo', 'Decoración con flores secas']
     },
     {
-        id: 14,
+        id: 11,
         name: 'Ramo de Girasoles con Lazo',
         description: 'Un ramo de girasoles, con un lazo amarillo y un mensaje especial. Perfecto para celebrar el cumpleaños de un ser querido.',
         price: 25,
@@ -99,7 +99,7 @@ const products = [
         features: ['Girasoles frescos', 'Lazo amarillo', 'Tarjeta de cumpleaños', 'Ideal para cumpleaños o aniversarios']
     },
     {
-        id: 15,
+        id: 12,
         name: 'Ramo de Girasoles con Lazo Blanco',
         description: 'Un ramo de girasoles con un lazo blanco, ideal para cualquier ocasión especial. Este ramo es perfecto para alegrar el día de esa persona especial.',
         price: 30,
@@ -108,7 +108,7 @@ const products = [
         features: ['Girasoles frescos', 'Lazo blanco', 'Tarjeta de mensaje especial', 'Regalo ideal para cualquier ocasión']
     },
     {
-        id: 16,
+        id: 13,
         name: 'Ramo de Girasol con Mariposa Dorada',
         description: 'Un ramo elegante de girasol de tela con una mariposa dorada. Ideal para sorprender a alguien especial con un toque único de color y estilo.',
         price: 20,
@@ -117,7 +117,7 @@ const products = [
         features: ['Girasol de tela', 'Mariposa dorada', 'Lazo dorado', 'Caja decorativa']
     },
     {
-        id: 17,
+        id: 14,
         name: 'Ramo de Girasoles con Lazo Amarillo',
         description: 'Un ramo vibrante de girasoles amarillos, con un lazo amarillo y detalles en negro. Perfecto para alegrar cualquier ocasión especial.',
         price: 45,
@@ -126,7 +126,7 @@ const products = [
         features: ['Girasoles amarillos', 'Lazo amarillo', 'Ideal para cumpleaños', 'Ramo de flores frescas']
     },
     {
-        id: 18,
+        id: 15,
         name: 'Caja Regalo con Peluche y Taza',
         description: 'Caja regalo con un tierno peluche, una taza personalizada y chocolates. Perfecto para regalar en cualquier ocasión especial como cumpleaños o San Valentín.',
         price: 45,
@@ -135,7 +135,7 @@ const products = [
         features: ['Peluche', 'Taza personalizada', 'Chocolates', 'Globo de felicitación']
     },
     {
-        id: 19,
+        id: 16,
         name: 'Rosas Rojas con Luces LED',
         description: 'Un hermoso ramo de rosas rojas artificiales, adornadas con luces LED, acompañado de una cinta decorativa. Ideal para regalar a esa persona especial.',
         price: 70,
@@ -144,7 +144,7 @@ const products = [
         features: ['Rosas rojas', 'Luces LED', 'Cinta decorativa', 'Perfecto para San Valentín']
     },
     {
-        id: 20,
+        id: 17,
         name: 'Arreglo de Girasol con Corona y Mariposa',
         description: 'Este elegante arreglo de girasol y rosas, con una corona dorada y una mariposa, es el detalle perfecto para cualquier ocasión especial.',
         price: 80,
@@ -153,7 +153,7 @@ const products = [
         features: ['Girasoles y rosas', 'Corona dorada', 'Mariposa decorativa', 'Ideal para aniversarios']
     },
     {
-        id: 21,
+        id: 18,
         name: 'Ramo de Rosas Blancas y Doradas',
         description: 'Un ramo delicado de rosas blancas y doradas con detalles de cinta, ideal para sorprender en el Día de San Valentín o en cualquier ocasión especial.',
         price: 25,
@@ -162,7 +162,7 @@ const products = [
         features: ['Rosas blancas y doradas', 'Cinta decorativa', 'Perfecto para San Valentín', 'Detalles elegantes']
     },
     {
-        id: 22,
+        id: 19,
         name: 'Ramo de Girasoles Personalizado',
         description: 'Ramo de girasoles con una tarjeta personalizada, ideal para sorprender a alguien con un toque muy especial. Viene con un lazo de tela y una etiqueta personalizada.',
         price: 75,
@@ -171,7 +171,7 @@ const products = [
         features: ['Girasoles frescos', 'Tarjeta personalizada', 'Lazo de tela', 'Ideal para cualquier ocasión']
     },
     {
-        id: 23,
+        id: 20,
         name: 'Ramo de Rosas Rojas con Lazo Rojo',
         description: 'Ramo de rosas rojas con un hermoso lazo rojo, acompañado de una tarjeta de mensaje especial. El regalo perfecto para cualquier ocasión especial.',
         price: 30,
@@ -180,7 +180,7 @@ const products = [
         features: ['Rosas rojas', 'Lazo rojo', 'Tarjeta personalizada', 'Perfecto para San Valentín']
     },
     {
-        id: 24,
+        id: 21,
         name: 'Rosas en Caja con Corazón',
         description: 'Caja en forma de corazón con hermosas rosas artificiales. Un detalle especial que expresa amor y cariño, ideal para San Valentín o aniversarios.',
         price: 40,
@@ -189,7 +189,7 @@ const products = [
         features: ['Rosas en caja con corazón', 'Cristales en las rosas', 'Regalo perfecto para ocasiones especiales', 'Ideal para San Valentín']
     },
     {
-        id: 25,
+        id: 22,
         name: 'Ramo de Rosas de Tela en Color Rosa',
         description: 'Un ramo de rosas de tela en color rosa con hojas verdes y un lazo blanco. Un detalle único y elegante para cualquier ocasión especial.',
         price: 18,
@@ -198,7 +198,7 @@ const products = [
         features: ['Rosas de tela', 'Lazo blanco', 'Ramo decorativo', 'Ideal para aniversarios o regalos de amistad']
     },
     {
-        id: 26,
+        id: 23,
         name: 'Arreglo perfecto para el Día de la Madre',
         description: 'Este encantador arreglo incluye una taza con un mensaje especial, un adorable peluche de oso y un globo decorativo, creando el regalo perfecto para sorprender a mamá en su día. Un detalle único que combina ternura y cariño para hacerla sonreír.',
         price: 55,
